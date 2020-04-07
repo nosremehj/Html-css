@@ -1,0 +1,197 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+}
+/*header*/
+header h1{
+    margin: 0 auto 0 10px;
+    padding: 0 5px;
+    font-size: 35px; 
+    height: auto;
+    color: white;
+}
+.navegar{
+    display: flex;
+    padding: 80px;
+    align-items: center;
+    background-image: url("../img/navbar.png");
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+.bar li{
+    font-size: 18px;
+    list-style: none;
+    display: inline-block;
+    padding: 0px 15px 0 15px;
+    border-radius: 5px;
+}
+.bar li a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+.bar li a:hover{
+    transition-duration: all 0.2s;
+    color: black;
+}
+.git-hub{
+    background-image: url("../img/github.png");
+    width: 40px;
+    height: 40px;
+}
+/*main*/
+
+main h2{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+.introducao{
+    margin: 15px;
+    text-align: center
+}
+/*poemas*/
+.poemas{
+    margin: 20px 20px;
+    padding: 5px 5px;
+    width: 25%;
+    border: 5px double black;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
+}
+.poemas h3{
+    font-size: 1.2em;
+    text-align: center;
+}
+div:nth-child(2){
+    margin: auto;
+}
+div:nth-child(4){
+   margin: auto;
+}
+/*frases*/
+.caixa-frases p{
+    margin: 15px 0;
+    text-align: center;
+}
+strong {
+	font-weight: bold;
+}
+.frases{
+    margin: 0 20px 0 20px;
+    width: auto;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.frases p{
+    margin: 5px 5px;
+    padding: 10px 0;
+    border: 2.5px dashed black;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
+}
+/*filosofia*/
+.caixa-filosofia p{
+    text-align: justify;
+    margin: 10px 10px;
+}
+.frases-filo{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.frases-filo p{
+    margin: 10px 10px;
+    padding: 10px;
+    border: 2.5px solid black;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
+}
+/*sobre*/
+#sobre{
+    width: 100%;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    overflow: auto;
+    
+}
+#sobre h2{
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 0;
+}
+#sobre p{
+    text-align: justify;
+    font-size: 17px;
+    margin: 15px 10px ;
+}
+/*contato*/
+aside{
+    background-color: #333;
+    padding: 25px 0 25px 20px;
+    color: white;
+}
+aside h2{
+    font-size: 30px;
+    margin: 5px 0;
+}
+#contato li{
+    padding: 5px 0;
+}
+/*footer*/
+footer{
+    font-size: 19px;
+    text-align: center;
+    color: white;
+    background-color: #333333;
+	clear: both;
+	bottom: 0;
+	left: 0;
+    width: 100%;
+    overflow: auto;
+    padding: 10px 0;
+}
+/*usar depois -- */
+
+@media all and (max-width:1252px){
+    main h2{
+        margin: 15px 0;
+    }
+    .frases{
+        display: inline-block;
+        width: 100%;
+        margin: 10px 0;
+        padding: 0;
+    }
+    .frases p{
+        margin: 15px;
+    }
+    .frases-filo{
+        display: inline-block;
+        width: 100%;
+        margin: 10px 0;
+        padding: 0;
+    }
+    .poemas{
+        display: inline-block;
+        width: 100%;
+        margin: 15px 0;
+        border: 0.2px double black;
+        padding: 0;
+    }
+    .poemas h3{
+        margin: 5px 10px;
+    }
+    .poemas p{
+        margin: 5px 15px;
+    }
+    .nav-bar{
+        text-indent: -99999px;
+    }
+    .navegar h1{
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        pad: 0;
+    }
+}
